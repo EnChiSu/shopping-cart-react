@@ -1,0 +1,16 @@
+.detail__container {
+    background-color: #303030;
+    border-radius: 6px;
+    color: white;
+    padding: 10px 20px;
+    width: 48%;
+    margin: 10px auto;
+}
+
+.detail__title {
+    color: #909090;
+}
+
+.detail__note {
+    margin-bottom: 15px;
+}
