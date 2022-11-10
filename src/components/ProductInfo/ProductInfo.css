@@ -1,0 +1,43 @@
+.productInfo__container {
+    background-color: #303030;
+    border-radius: 6px;
+    color: white;
+    padding: 10px 20px;
+    width: 48%;
+    margin: 10px auto;
+}
+
+.productInfo__title {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.productInfo__price {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.productInfo__salePrice__text {
+    font-size: 20px;
+}
+
+.productInfo__formalPrice__text {
+    text-decoration: line-through;
+    padding-left: 10px;
+    color: #909090	;
+}
+
+.productInfo__tag__text {
+    margin-right: 15px;
+    font-size: 10px;
+    background-color: #B22222;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+
+.horizontal__line {
+    margin: 20px 0;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    background-color: black;
+}
