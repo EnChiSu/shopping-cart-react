@@ -1,0 +1,13 @@
+.nav__bar {
+    background-color: black;
+    color: white;
+    width: 200%;
+    height: 60px;
+    text-align: center;
+}
+
+.nav__bar_text {
+    font-size: 20px;
+    line-height: 60px;
+    vertical-align: middle;
+}
