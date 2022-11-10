@@ -1,0 +1,61 @@
+.footer__bar {
+    position: fixed;
+    bottom: 0;
+    background-color: #383838;
+    color: white;
+    width: 200%;
+    height: 60px;
+    text-align: center;
+    display : flex;
+    align-items : center;
+    justify-content: center;
+}
+
+.shopping__cart__icon {
+    width: 35px;
+    margin: 0 20px;
+}
+
+.shopping__cart__icon__btn {
+    cursor: pointer;
+}
+
+.shopping__cart__icon__badge {
+    position: fixed;
+    bottom: 33px;
+    margin-right: 190px;
+    width: 20px;
+    height: 20px;
+    background: red;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.add__cart__btn {
+    height: 40px;
+    background-color: #505050;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.buy__btn {
+    height: 40px;
+    background-color: #B22222;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0 15px;
+    cursor: pointer;
+}
