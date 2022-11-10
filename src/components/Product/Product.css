@@ -1,0 +1,16 @@
+.product__container {
+    position: relative;
+    overflow: hidden;
+    background: black;
+    width: 1000px;
+    height: 60%;
+    padding-bottom: 70px;
+}
+
+.product__image {
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    margin: auto;
+    width: 53%;
+}
