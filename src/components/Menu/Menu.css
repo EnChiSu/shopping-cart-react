@@ -1,0 +1,155 @@
+.addToCart__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #383838;
+    width: 100%;
+    text-align: left;
+    padding: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+    border-bottom: 2px solid #000;
+
+    @media (max-width: 576px) {
+        width: 100%;
+    }
+}
+
+.menu__container {
+    width: 550px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.menu__bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu__bar__image {
+    width: 20%;
+    border-radius: 5px;
+}
+
+.menu__content {
+    padding-left: 20px;
+    width: 70%;
+}
+
+.menu__title{
+    margin-bottom: 10px;
+}
+
+.menu__title__text {
+    font-size: 18px;
+}
+
+.menu__salePrice__text{
+    font-size: 20px;
+}
+
+.size__option, .color__option {
+    padding-right: 10px;
+}
+
+.color__container {
+    width: 400px;
+    line-height: 55px;
+}
+
+.size__option__button {
+    background-color: #383838;
+    border-color: white;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.color__option__button {
+    background-color: #383838;
+    border-color: white;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.color__option__button:active {
+    background-color: #B22222;
+}
+
+.menu__options__title__text {
+    font-size: 18px;
+}
+
+.menu__options__subTitle__text {
+    font-size: 14px;
+    padding-left: 10px;
+    color: #909090	;
+}
+
+.menu__horizontal__line {
+    margin: 20px 0;
+    width: 95%;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    background-color: black;
+}
+
+.menu__calc__bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.minus__calc__btn {
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: #696969;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.plus__calc__btn {
+    margin-left: 10px;
+    border-radius: 4px;
+    background-color: #696969;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.close__menu__btn {
+    background-color: transparent;
+    border: none;
+    margin-right: 30px;
+    height: 10px;
+    padding-bottom: 100px;
+    cursor: pointer;
+}
+
+.close__menu__icon {
+    color: white;
+    font-size: 20px;
+}
+
+.confirm__add__cart__btn {
+    height: 40px;
+    background-color: #B22222;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    margin: 30px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0 15px;
+    width: 550px;
+    cursor: pointer;
+}
